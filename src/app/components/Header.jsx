@@ -107,14 +107,7 @@ const Header = () => {
             <div className="mx-auto flex justify-between items-center h-full px-2 sm:px-4">
                 {/* Logo Section */}
                 <div className="flex items-center gap-1 sm:gap-2">
-                    <Image
-                        src="/images/linkuplogo.jpg"
-                        width={40}
-                        height={45}
-                        alt="logo"
-                        onClick={() => handleNavigation("/")}
-                        className="cursor-pointer"
-                    />
+                 
                     <span className="text-md sm:text-lg font-bold text-[#42bc5c]">LinkUp</span>
                 </div>
                 
